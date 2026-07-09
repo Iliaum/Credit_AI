@@ -30,9 +30,10 @@
 ### Структура папок
 ```text
 Project/
-├── dataset/             # Входные данные (включая намеренно сложный scan_ocr_001.txt)[cite: 1, 2]
+├── tests_ds_credit/     # Входные данные (включая намеренно сложный scan_ocr_001.txt)
 ├── src/                 # Основная бизнес-логика (extractor, classifier, check_subject)
 ├── tests/               # Unit-тесты для валидации системы
 ├── requirements.txt     # Зависимости проекта
 ├── run_subject.py       # CLI-утилита для генерации отчетов
+├── RESULTS.md           # Описание результатов, которые получили
 └── README.md            # Документация проекта
